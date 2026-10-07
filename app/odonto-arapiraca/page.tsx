@@ -15,13 +15,10 @@ const WHATSAPP_URL = "https://wa.me/5582999881163";
 const MAPS_URL = "https://maps.app.goo.gl/LP5ypWUGtvydSXNh8?g_st=ic";
 const INSTAGRAM_URL = "https://www.instagram.com/odontoarapiraca/";
 
-const unsplash = (id: string) =>
-  `https://images.unsplash.com/${id}?w=1200&h=720&q=80&auto=format&fit=crop`;
-
 const coverSlides: CoverSlide[] = [
-  { src: unsplash("photo-1629909613654-28e377c37b09"), alt: "Consultório odontológico moderno e iluminado" },
-  { src: unsplash("photo-1606265752439-1f18756aa5fc"), alt: "Dentista segurando instrumentos odontológicos" },
-  { src: unsplash("photo-1598256989800-fe5f95da9787"), alt: "Cadeira odontológica em clínica limpa" },
+  { src: "/odonto-arapiraca/clinica2.jpg", alt: "Recepção da Odonto Arapiraca" },
+  { src: "/odonto-arapiraca/clinica1.jpg", alt: "Consultório odontológico da Odonto Arapiraca" },
+  { src: "/odonto-arapiraca/clinica3.jpg", alt: "Cadeira odontológica no consultório da Odonto Arapiraca" },
 ];
 
 const socials: SocialLink[] = [
